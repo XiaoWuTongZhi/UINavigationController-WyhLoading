@@ -15,7 +15,7 @@ static NSString * const _UINavigationBarContentViewClass = @"_UINavigationBarCon
 static CGFloat const _IndicatorAndTitleLabelMargin = 5.f;
 
 static NSString * _lastNavTitle;
-static BOOL _isNavIndicatorLoading ;
+static BOOL _isNavIndicatorLoading;
 
 @interface UINavigationController ()
 

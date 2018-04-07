@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097593BF2078EFCE0072AFEF /* UINavigationController+WyhLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 097593BE2078EFCE0072AFEF /* UINavigationController+WyhLoading.m */; };
+		097593C22078F5A90072AFEF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097593C12078F5A90072AFEF /* TestViewController.m */; };
 		098F4F8A207350CC006807C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 098F4F89207350CC006807C1 /* AppDelegate.m */; };
 		098F4F8D207350CC006807C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098F4F8C207350CC006807C1 /* ViewController.m */; };
 		098F4F90207350CC006807C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098F4F8E207350CC006807C1 /* Main.storyboard */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097593BD2078EFCE0072AFEF /* UINavigationController+WyhLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WyhLoading.h"; sourceTree = "<group>"; };
+		097593BE2078EFCE0072AFEF /* UINavigationController+WyhLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WyhLoading.m"; sourceTree = "<group>"; };
+		097593C02078F5A90072AFEF /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		097593C12078F5A90072AFEF /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		098F4F85207350CC006807C1 /* TestNavLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNavLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		098F4F88207350CC006807C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		098F4F89207350CC006807C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,10 +117,14 @@
 				098F4F89207350CC006807C1 /* AppDelegate.m */,
 				098F4F8B207350CC006807C1 /* ViewController.h */,
 				098F4F8C207350CC006807C1 /* ViewController.m */,
+				097593C02078F5A90072AFEF /* TestViewController.h */,
+				097593C12078F5A90072AFEF /* TestViewController.m */,
 				098F4FBA207350F2006807C1 /* WyhNavigationController.h */,
 				098F4FBB207350F2006807C1 /* WyhNavigationController.m */,
 				098F4FBD20735358006807C1 /* UINavigationController+HSLoading.h */,
 				098F4FBE20735358006807C1 /* UINavigationController+HSLoading.m */,
+				097593BD2078EFCE0072AFEF /* UINavigationController+WyhLoading.h */,
+				097593BE2078EFCE0072AFEF /* UINavigationController+WyhLoading.m */,
 				098F4F8E207350CC006807C1 /* Main.storyboard */,
 				098F4F91207350CC006807C1 /* Assets.xcassets */,
 				098F4F93207350CC006807C1 /* LaunchScreen.storyboard */,
@@ -277,9 +287,11 @@
 			files = (
 				098F4FBC207350F2006807C1 /* WyhNavigationController.m in Sources */,
 				098F4F8D207350CC006807C1 /* ViewController.m in Sources */,
+				097593C22078F5A90072AFEF /* TestViewController.m in Sources */,
 				098F4FBF20735358006807C1 /* UINavigationController+HSLoading.m in Sources */,
 				098F4F98207350CC006807C1 /* main.m in Sources */,
 				098F4F8A207350CC006807C1 /* AppDelegate.m in Sources */,
+				097593BF2078EFCE0072AFEF /* UINavigationController+WyhLoading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

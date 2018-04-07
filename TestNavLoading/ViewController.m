@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "UINavigationController+HSLoading.h"
+#import "UINavigationController+WyhLoading.h"
+#import "TestViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -30,11 +32,19 @@
 - (void)leftAction {
     
     [self.navigationController showLoading];
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self.navigationController dismissLoadingWithErrorMsg:@"No net"];
+//    });
+    
 }
 
 - (void)rightAction {
     
-    [self.navigationController dismissLoadingWithErrorMsg:@"无网络"];
+//    [self.navigationController pushViewController:[TestViewController new] animated:YES];
+    
+    
+    [self.navigationController dismissLoading];
 }
 
 - (void)didReceiveMemoryWarning {
